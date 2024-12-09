@@ -1,0 +1,235 @@
+/* NAV BAR */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    background-color: white;
+}
+div.space-one{
+    width: 550px;
+}
+li {
+    float: left;
+    margin-top: 15px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 208, 79);
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.2s;
+    display: block;
+    }    
+.ksi{
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 208, 79);
+    width: 150px;
+}
+
+li:hover a:hover{
+    color: rgb(54, 140, 239);
+    background-color: white;
+    transform: scale(1.5);
+    transform: translateY(-5px);
+}
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    background-color: rgb(86, 164, 252);
+    border-radius: 50px;
+}
+i{
+    color: rgb(255, 208, 79);
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    float: left;
+    transition: 0.2s;
+}
+.judul{
+    color: white;
+    font-family:"Poppins";
+    font-weight: bold;
+    float: left;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    padding-left: 35px;
+    font-size: 27px;
+    transition: 0.2s;
+}
+i:hover{
+    transform: translateY(-3px);
+
+}
+.judul:hover{
+    transform: translateY(-3px);
+
+}
+li a,.dropbtn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+li a:hover, dropdown:hover, dropbtn{
+    color: pink;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 50px;
+    height: 165px;
+    width: 350px;
+    transform: translateY(7px);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+
+
+
+.ksi-penjelasan{
+    padding-left: 35px;
+}
+.judul-ksi{
+    font-family: "Poppins";
+    color: rgb(255, 208, 79);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.isi-ksi{
+    font-family: "Poppins";
+    color: rgb(86, 164, 252);
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.bilateral, .regional, .multilateral{
+    display: flex;
+}
+.btw, .rtw, .mtw{
+    font-family: "Poppins";
+    color: rgb(86, 164, 252);
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.lebih{
+    text-decoration: none;
+    background-color: rgb(255, 208, 79);
+    font-family: "Poppins";
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    font-size: 15px;
+}
+.lebih:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: rgb(86, 164, 252);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(86, 164, 252);
+}
+.bilateral-two{
+    padding-top: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.bte, .rte, .mte{
+    font-family: "Poppins";
+    color: rgb(86, 164, 252);
+    font-size: 20px;
+    width: 750px;
+}
+.bil-gbr{
+    width: 400px;
+    height: auto;
+    position: relative;
+    float: right;
+    transition: 0.2s ease-in-out;
+    margin-left: 35px;
+}
+.bil-gbr:hover{
+    transform: scale(1.1);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 208, 79);
+}
+.reg-gbr:hover{
+    transform: scale(1.1);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 208, 79);
+}
+.mul-gbr:hover{
+    transform: scale(1.1);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 208, 79);
+}
+.reg-gbr{
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 50px;
+    transition: 0.2s ease-in-out;
+}
+.mul-gbr{ 
+    width: 350px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 50px;
+    transition: 0.2s ease-in-out;
+}
+.space{
+    height: 40px;
+}
+
+
+
+
+

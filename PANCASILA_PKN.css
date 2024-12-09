@@ -1,0 +1,214 @@
+/* NAV BAR */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.7;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+html{
+    background-color: white;
+}
+div.space-one{
+    width: 550px;
+}
+li {
+    float: left;
+    margin-top: 15px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 208, 79);
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Poppins";
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.2s;
+    display: block;
+    }    
+.ksi{
+    margin-top: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 208, 79);
+    width: 150px;
+}
+
+li:hover a:hover{
+    color: rgb(54, 140, 239);
+    background-color: white;
+    transform: scale(1.5);
+    transform: translateY(-5px);
+}
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    background-color: rgb(86, 164, 252);
+    border-radius: 50px;
+}
+i{
+    color: rgb(255, 208, 79);
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    float: left;
+    transition: 0.2s;
+}
+.judul{
+    color: white;
+    font-family:"Poppins";
+    font-weight: bold;
+    float: left;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    padding-left: 35px;
+    font-size: 27px;
+    transition: 0.2s;
+}
+i:hover{
+    transform: translateY(-3px);
+
+}
+.judul:hover{
+    transform: translateY(-3px);
+
+}
+li a,.dropbtn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+li a:hover, dropdown:hover, dropbtn{
+    color: pink;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 50px;
+    height: 165px;
+    width: 350px;
+    transform: translateY(7px);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+
+.title{
+    font-family: "Poppins";
+    color: rgb(255, 214, 103);
+    font-size: 35px;
+    font-weight: bold;
+    width: 650px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    text-align: center;
+    margin-left: 275px;
+
+}
+.isisatus{
+    font-family: "Poppins";
+    color: rgb(86, 164, 252);
+    font-size: 20px;
+    width: 700px;
+    margin-left: 70px;
+    text-align: center;
+    margin-left: 275px;
+
+}
+.isisatu{
+    font-family: "Poppins";
+    color: rgb(86, 164, 252);
+    font-size: 18px;
+    width: 700px;
+    margin-left: 70px;
+}
+.subtitlesatu{
+    font-family: "Poppins";
+    color: rgb(255, 208, 79);
+    font-size: 25px;
+    width: 700px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 0px;
+
+}
+.isidua{
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: 450px;
+    margin-right: 50px;
+    text-align: right;
+}
+.subtitledua{
+    font-family: "Poppins";
+    color: rgb(255, 208, 79);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 450px;
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 0px;
+
+}
+.dua{
+    background-color: rgb(86, 164, 252);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.anjing{
+    display: flex;
+}
+.aaa1, .aaa2, .aaa3{
+    width: 100px;
+    height:fit-content ;
+}
+.aaa1, .aaa3{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.aaa3{
+    width: 200px;
+}
+.aaa2{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 30px;
+}
